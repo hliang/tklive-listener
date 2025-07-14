@@ -1,0 +1,18 @@
+{
+  "name": "tklive-listener",
+  "version": "1.0.0",
+  "description": "A TypeScript project for listening to TK Live events",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "watch": "tsc --watch",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "tiktok-live-connector": "^2.0.7-alpha2"
+  }
+}
